@@ -12,6 +12,6 @@ MIN_CATCHMENT_AREA_M2: int = 3e5
 OBSERVATION_SAVE_FILE: str = "dataMonthly.npy"
 CLUSTER_LABEL_OUTPUT_FILE: str = "cluster_labels.tif"
 START_DATE: str = "2020-01-01"  # date as "YYYY-mm-dd"
-END_DATE: str = "2025-09-30"  # "now" or YYYY-mm-dd
+END_DATE: str = "now"  # "now" or YYYY-mm-dd
 COLLECTION_ID: str = "sentinel-2-l2a"
 RESOLUTION: int = 20
